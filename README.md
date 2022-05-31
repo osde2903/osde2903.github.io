@@ -2,4 +2,4 @@
 
 
 
-Second time taking a summer course!
+Excited to learn Front-End Web Development!
