@@ -1,5 +1,9 @@
 /* Notice the comments for CSS are different! */
+html {
+  background-color: blue;
+
+}
 p {
-    color:blue;
+    color:black;
     font-size:2em;
   }

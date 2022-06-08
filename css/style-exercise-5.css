@@ -1,0 +1,24 @@
+/* Notice the comments for CSS are different! */
+html{
+  background-color: #87CEFA;
+  font-family: 'Tahoma', sans-serif;
+  text-align: center;
+  color: white;
+
+
+
+}
+p {
+  font-size:2em;
+
+  }
+#leaves{
+  font-style: oblique;
+}
+#trunk{
+  font-weight: bold;
+}
+#ground{
+  background-color: #556B2F;
+  background-size: 190px, 130px;
+}
