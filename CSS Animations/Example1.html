@@ -15,7 +15,7 @@
 	/* CSS Transitions */
   /* note that we define the transition in the non-transitioned state*/
 
-	transition: background-color 1s;
+	transition: background-color 1s, height, width;
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);
   /*transition-delay: 1s;*/
@@ -27,6 +27,8 @@
 
 	#box:hover {
 	background-color: pink;
+  height: 150%;
+  width: 150%;
 	}
 
     </style>
