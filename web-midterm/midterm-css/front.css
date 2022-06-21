@@ -1,0 +1,67 @@
+html{
+  font-family: cursive;
+}
+body {
+
+ background-color: #f9df9d;
+ font-family:fantasy;
+}
+img{
+  height: 60%;
+  width: 80%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fade-in-image { animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.flex-container2 {
+
+    background-color: DDCFCF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.flex-container2>div { /* > is the CSS child selector */
+    background-color: #d7e2fc;
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-size: 4em;
+
+    text-align: center;
+    font-family:fantasy;
+}
+.button {
+  background-color: #d7e2fc;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  font-family: fantasy;
+
+  text-decoration: none;
+  cursor: pointer;
+  width: 25%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button:hover {opacity: 1}
