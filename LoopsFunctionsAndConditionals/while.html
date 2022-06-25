@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>While Example</title>
 </head>
 <body>
 </body>
@@ -11,15 +11,24 @@
   const dogs = ['Bambam', 'Boomer', 'Smacky'];
   let myFavoriteDogs = 'My dogs are called ';
 
-  let i = 0;
+//  let i = 0;
 
-   while (i < dogs.length) {
-     if(i === dogs.length -1){
+//   while (i < dogs.length) {
+  //   if(i === dogs.length -1){
+    //   myFavoriteDogs += `and ${dogs[i]}.`
+     //} else {
+       //myFavoriteDogs += `and ${dogs[i]}, `
+     //}
+     //i++; // increment
+//   }
+
+
+   for(let i = 0;i < dogs.length;i++;){
+     {
        myFavoriteDogs += `and ${dogs[i]}.`
      } else {
        myFavoriteDogs += `and ${dogs[i]}, `
      }
-     i++; // increment
    }
 console.log(myFavoriteDogs);
 </script>
