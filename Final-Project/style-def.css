@@ -1,0 +1,106 @@
+html{
+  background-image: url("img/galaxy2.jpg");
+  background-color: #cccccc;
+  font-family: 'Tahoma', sans-serif;
+  /*text-align: center;*/
+  color: white;
+  text-align: center;
+}
+img{
+  height: 80%;
+  width: 100%;
+}
+p {
+  font-size:1em;
+}
+details > summary {
+  padding: 20px;
+  width: auto;
+  background-image: url("img/galaxy2.jpg");
+  border: none;
+  font-size: 1.5em;
+
+  cursor: pointer;
+}
+details > p {
+  background-color:black;
+  padding: 8px;
+  margin: 0;
+}
+.credit {
+  font-size: .75em;
+  font-style: italic;
+  color: white;
+}
+.button {
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  radius:
+}
+.button:hover {opacity: 1}
+.grid-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: minmax(auto, 100%);
+  grid-auto-rows: 4;
+  grid-gap:20px;
+
+  font-size: 1em;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.grid-item-1{
+  grid-column: auto;
+
+}
+.grid-item-2{
+  grid-column: auto;
+}
+.grid-item-3{
+  grid-column: auto;
+}
+.grid-item-4{
+  grid-column: auto;
+}
+.grid-item-5{
+  grid-column: auto
+}
+.grid-item-6{
+  grid-column: auto;
+
+}
+.grid-item-7{
+  grid-column: auto;
+}
+.grid-item-8{
+  grid-column: auto;
+}
+.grid-item-9{
+  grid-column: auto;
+}
+.grid-item-10{
+  grid-column: auto;
+}
+.grid-item-11{
+  grid-column: auto;
+
+}
+.grid-item-12{
+  grid-column:auto;
+}
+.grid-item-13{
+  grid-column:auto;
+}
