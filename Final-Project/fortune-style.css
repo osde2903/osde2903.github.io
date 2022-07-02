@@ -32,24 +32,10 @@ img{
 .button:hover {opacity: 1}
 
 .flex-container2 {
-
     background-color: DDCFCF;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /*position: absolute; left:80px; top:20px;
-
-    /* flex-direction: column-reverse; */
-    /* flex-direction: row; */
-    /* flex-direction: row-reverse; */
-    /* flex-direction: row; */
-    /* flex-direction: row-reverse; */
-    /* flex-wrap: wrap; specifies whether the flex items should wrap or not. */
-    /* flex-wrap: nowrap; */
-    /* flex-wrap: wrap-reverse;*/
-    /* flex-flow: row wrap; */
-
-
 }
 
 .flex-container2>div { /* > is the CSS child selector */
@@ -57,11 +43,8 @@ img{
     display: flex;
     /*width: 50px;
     height: 50px; */
-
-
     margin: 20px;
     padding: 20px;
     font-size: 1em;
     text-align: left;
-
 }

@@ -1,6 +1,7 @@
 html{
+  /*background-image: #27214f; */
+
   background-image: url("img/galaxy2.jpg");
-  background-color: #cccccc;
   font-family: 'Tahoma', sans-serif;
   /*text-align: center;*/
   color: white;
@@ -16,16 +17,21 @@ p {
 details > summary {
   padding: 20px;
   width: auto;
-  background-image: url("img/galaxy2.jpg");
+  background-color: #373a51;
+  border-radius: 8px;
   border: none;
+
   font-size: 1.5em;
 
   cursor: pointer;
 }
 details > p {
-  background-color:black;
+  background-image: url("img/galaxy2.jpg");
+  /* background-color:black; */
   padding: 8px;
   margin: 0;
+  border-radius: 8px;
+  border: none;
 }
 .credit {
   font-size: .75em;
@@ -33,7 +39,7 @@ details > p {
   color: white;
 }
 .button {
-  background-color: black;
+  background-color: #373a51;
   border-radius: 8px;
   border: none;
   color: white;
@@ -50,7 +56,9 @@ details > p {
 }
 .button:hover {opacity: 1}
 .grid-container {
-  background-color: black;
+  background-color: #27214f;
+  background-image: url("img/galaxy2.jpg");
+  /* background-color: black; */
   display: grid;
   grid-template-columns: minmax(auto, 100%);
   grid-auto-rows: 4;
